@@ -1,0 +1,9 @@
+menu "Testable"
+
+    config NUM_REPEAT
+        int "Num Repeat Logs"
+        default 1
+        help
+            The number of times to repeat log statements in the testable component.
+
+endmenu

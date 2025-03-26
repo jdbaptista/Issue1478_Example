@@ -1,0 +1,9 @@
+build/
+builds/
+configurations/sdkconfig.1
+configurations/sdkconfig.2
+sdkconfig
+sdkconfig.old
+.devcontainer/
+.vscode/
+unity-app/

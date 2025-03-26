@@ -1,0 +1,2 @@
+/* The number of times to repeat the log statement of the testable component */
+CONFIG_NUM_REPEAT=2

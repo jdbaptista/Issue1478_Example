@@ -1,0 +1,52 @@
+{
+  "repeat_twice": {
+    "build": {
+      "compileArgs": [],
+      "ninjaArgs": [],
+      "buildDirectoryPath": "${workspaceFolder}\\builds\\twice",
+      "sdkconfigDefaults": [
+        ".\\configurations\\sdkconfig.default1"
+      ],
+      "sdkconfigFilePath": "${workspaceFolder}\\configurations\\sdkconfig.1"
+    },
+    "env": {},
+    "flashBaudRate": "",
+    "monitorBaudRate": "",
+    "openOCD": {
+      "debugLevel": 0,
+      "configs": [],
+      "args": []
+    },
+    "tasks": {
+      "preBuild": "",
+      "preFlash": "",
+      "postBuild": "",
+      "postFlash": ""
+    }
+  },
+  "repeat_quadruple": {
+    "build": {
+      "compileArgs": [],
+      "ninjaArgs": [],
+      "buildDirectoryPath": "${workspaceFolder}\\builds\\quadruple",
+      "sdkconfigDefaults": [
+        ".\\configurations\\sdkconfig.default2"
+      ],
+      "sdkconfigFilePath": "${workspaceFolder}\\configurations\\sdkconfig.2"
+    },
+    "env": {},
+    "flashBaudRate": "",
+    "monitorBaudRate": "",
+    "openOCD": {
+      "debugLevel": 0,
+      "configs": [],
+      "args": []
+    },
+    "tasks": {
+      "preBuild": "",
+      "preFlash": "",
+      "postBuild": "",
+      "postFlash": ""
+    }
+  }
+}
